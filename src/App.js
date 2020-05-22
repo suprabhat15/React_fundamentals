@@ -30,7 +30,7 @@ class App extends Component {
       persons: [
         { name: "Suprabhat Kumar", age: 22 },
         { name: event.target.value, age: 21 },
-        { name: "Sakshat", age: 21 },
+        { name: "Avinash", age: 21 },
       ],
     });
   };
@@ -60,7 +60,7 @@ class App extends Component {
           <Person
             name={this.state.persons[1].name}
             age={this.state.persons[1].age}
-            click={this.switchNameHandler.bind(this, "Sakshi")}
+            click={this.switchNameHandler.bind(this, "Abhishek")}
             changed={this.nameChangedHandler}
           >
             I like Cricket.
